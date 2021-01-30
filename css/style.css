@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap&subset=cyrillic-ext');
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-LightItalic.woff2') format('woff2'),
+		url('../fonts/Gilroy-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+		url('../fonts/Gilroy-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*
+Жмем F1
+Пишем Google Fonts
+Выбираем import
+Пишем имя шрифта
+Убираем лишнее
+Добавляем кавычки и запись:
+&display=swap&subset=cyrillic-ext
+*/
+
+/* Стили обнуления */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-family: lora;
+	font-size: 20px;
+	line-height: 1;
+	color:black;
+}
+/*-------------------------------------*/
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+}
+.header_list a {
+	color: red;
+	text-decoration: overline;
+}
+a.list_link {
+	color: springgreen;
+}
+#list_link_1 {
+	color: darkblue;
+}
+h1 {
+	color: rgb(250, 6, 217);
+	font-family: lora;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 200%;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 20px 20px 20px rgb(99, 214, 21);
+}
+p {
+	font-family: roboto;
+	color: red;
+	text-align: right;
+	word-spacing: 10px;
+	text-decoration: underline;
+}
+p a {
+	color: seagreen;
+}
+p mark {
+	font-family: lora;
+	line-height: 220%;
+	color: slategrey;
+	text-transform: capitalize;
+}
+h2 {
+	font-family: gilroy;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 250%;
+	text-align: center;
+	color: blue;
+	text-shadow: 5px 5px 5px #000;
+	text-shadow: 10px 10px 10px;
+}
+.subtitle {
+	color: rgb(8, 192, 248)
+}
+.block-2_list li {
+	color: greenyellow;
+}
+.block-2_list_2 li {
+	color: indigo;
+}
+.block-2_important {
+	color: yellow
+}
+.word-1,
+.word-2 {
+	font-family: Roboto;
+	font-weight: 700;
+	color: lawngreen;
+}
+#footer_link {
+	color: rgb(226, 17, 226);
+	text-decoration: line-through;
+}
